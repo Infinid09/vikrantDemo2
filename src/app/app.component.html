@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class="parentClass">
+  <h1>
+This is parent component
+  </h1>
+</div>
+<button (click)="myFunction()">click me</button>
+<app-child1 (outObj)="alertReceivedObject($event)" [childVariable]="myVariable"></app-child1>
+
+
+
+
+<router-outlet></router-outlet>
